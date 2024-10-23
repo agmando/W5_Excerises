@@ -3,4 +3,4 @@ debts = float(input("What is your total debt? "))
 
 net_worth = assets - debts
 
-print(f"Your net worth is ${net_worth:.2f}")
+print("Your net worth is " + format(net_worth, ".2f"))
